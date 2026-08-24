@@ -1,24 +1,16 @@
-# VIP Shop BD — Supabase Store
+# VIP Shop BD
 
-Mobile-first e-commerce website connected to the existing Supabase project `md rayhan`.
+GitHub Pages-ready Supabase shop.
 
-## Included
-- VIP/app plans + fashion/borka/men/women/electronics/other products
-- Product search and categories
-- Cart + checkout
-- Email/password auth
-- Google OAuth button (enable Google provider in Supabase Auth)
-- bKash/Nagad payment method selection
-- Customer order history
-- Admin product add/edit/soft-delete
-- Responsive mobile bottom navigation
-- GitHub Pages compatible static files
+Features:
+- VIP/app plans with required Gmail field
+- Facebook/TikTok/YouTube service products with target link field
+- Fashion, borka, men/women and other products
+- Buy Now + cart
+- bKash/Nagad payment number: 01876872469
+- Transaction ID submission
+- Admin product management
+- Forgot/reset password
 
-## Admin
-Set a user's `profiles.role` to `admin` in Supabase. Then log in and open Account → Admin Panel.
-
-## Deploy on GitHub Pages
-Upload all files to a repository. No build step is required. Open `index.html` through GitHub Pages.
-
-## Important
-The frontend uses the Supabase publishable key. This is intended for browser use; security is enforced by Supabase RLS policies. Do not put a service-role key in the frontend.
+Supabase project: md rayhan (`ctqdjeckfrricehyrwhc`)
+Admin email: `rayhaneditz12@gmail.com` (automatically receives admin role when the account is created)
